@@ -15,10 +15,10 @@ const App = () => {
         <Route path="/react-route-spa/">
           <Home />
         </Route>
-        <Route path="/react-route-spa//about">
+        <Route path="/react-route-spa/about">
           <About />
         </Route>
-        <Route path="/react-route-spa//contact">
+        <Route path="/react-route-spa/contact">
           <Contact />
         </Route>
       </div>
