@@ -6,19 +6,18 @@ import Contact from "./Pages/Contact";
 const App = () => {
   return (
     <div>
-      {process.env.REACT_APP_NOT_SECRET_CODE}
-      <Link to="/react-route-spa/">Home</Link>
-      <Link to="/react-route-spa/about">About</Link>
-      <Link to="/react-route-spa/contact">Contact</Link>
+      <Link to="/react-spa-wthout-react-router/">Home</Link>
+      <Link to="/react-spa-wthout-react-router/about">About</Link>
+      <Link to="/react-spa-wthout-react-router/contact">Contact</Link>
 
       <div>
-        <Route path="/react-route-spa/">
+        <Route path="/react-spa-wthout-react-router/">
           <Home />
         </Route>
-        <Route path="/react-route-spa/about">
+        <Route path="/react-spa-wthout-react-router/about">
           <About />
         </Route>
-        <Route path="/react-route-spa/contact">
+        <Route path="/react-spa-wthout-react-router/contact">
           <Contact />
         </Route>
       </div>
