@@ -7,18 +7,18 @@ const App = () => {
   return (
     <div>
       {process.env.REACT_APP_NOT_SECRET_CODE}
-      <Link to="/">Home</Link>
-      <Link to="/about">About</Link>
-      <Link to="/contact">Contact</Link>
+      <Link to="/react-route-spa/">Home</Link>
+      <Link to="/react-route-spa/about">About</Link>
+      <Link to="/react-route-spa/contact">Contact</Link>
 
       <div>
-        <Route path="/">
+        <Route path="/react-route-spa/">
           <Home />
         </Route>
-        <Route path="/about">
+        <Route path="/react-route-spa//about">
           <About />
         </Route>
-        <Route path="/contact">
+        <Route path="/react-route-spa//contact">
           <Contact />
         </Route>
       </div>
